@@ -1,3 +1,3 @@
 (ns rodrigocitadin.exercism.hello-world)
 
-(def -main #(println (str "Hello, " %1)))
+(def hello #(str "Hello, World!"))
