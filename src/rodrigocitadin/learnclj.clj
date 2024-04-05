@@ -11,6 +11,4 @@
 ;   [& args]
 ;   (greet {:name (first args)}))
 
-(defn -main [world]
-  (println (str "Hello, " world)))
-
+(def -main #(println (str "Hello, " %1)))
